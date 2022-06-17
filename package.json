@@ -1,0 +1,20 @@
+{
+  "name": "forza-horizon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {},
+  "keywords": [
+    "forza",
+    "horizon",
+    "fh4",
+    "fh5",
+    "data out"
+  ],
+  "author": "Tim Trayler",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.0.0"
+  },
+  "files": ["./dist"]
+}
