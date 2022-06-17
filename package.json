@@ -1,7 +1,7 @@
 {
   "name": "forza-horizon",
   "version": "1.0.0",
-  "description": "",
+  "description": "This package allows for a simple usage of the FH4/FH5 Data Out feature.",
   "main": "dist/main.js",
   "scripts": {},
   "keywords": [
