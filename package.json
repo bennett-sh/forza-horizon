@@ -1,7 +1,7 @@
 {
   "name": "forza-horizon",
   "version": "1.0.0",
-  "description": "This package allows for a simple usage of the FH4/FH5 Data Out feature.",
+  "description": "A simple UDP server library, which can parse data from FH4/FH5.",
   "main": "dist/main.js",
   "scripts": {},
   "keywords": [
