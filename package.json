@@ -1,6 +1,6 @@
 {
   "name": "forza-horizon",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A simple UDP server library, which can parse data from FH4/FH5.",
   "main": "dist/main.js",
   "scripts": {},
@@ -16,5 +16,6 @@
   "devDependencies": {
     "@types/node": "^18.0.0"
   },
-  "files": ["./dist"]
+  "files": ["./dist/**/*.js"],
+  "typings": "./dist/main.d.ts"
 }

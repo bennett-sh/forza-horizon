@@ -1,7 +1,10 @@
 
+export { ForzaServerEvent } from './types/ForzaServerEvent'
+export { DataOut } from './types/DataOut'
+
+import { ForzaServerEvent } from './types/ForzaServerEvent'
 import { createSocket, Socket } from 'dgram'
 import parseData from './parse'
-import ForzaServerEvent from './types/ForzaServerEvent'
 
 
 export default class ForzaServer {

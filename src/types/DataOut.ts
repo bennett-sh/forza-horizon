@@ -1,5 +1,5 @@
 
-export default interface DataOut {
+export interface DataOut {
     IsRaceOn: number,
     TimestampMS: number,
     EngineMaxRpm: number,
