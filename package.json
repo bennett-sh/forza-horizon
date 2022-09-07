@@ -4,6 +4,10 @@
   "description": "A simple UDP server library to receive & parse data from FH4/FH5",
   "main": "dist/main.js",
   "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bennett-sh/forza-horizon.git"
+  },
   "keywords": [
     "forza",
     "horizon",
