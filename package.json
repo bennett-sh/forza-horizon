@@ -1,7 +1,7 @@
 {
   "name": "forza-horizon",
-  "version": "1.0.6",
-  "description": "A simple UDP server library, which can parse data from FH4/FH5.",
+  "version": "1.0.8",
+  "description": "A simple UDP server library to receive & parse data from FH4/FH5",
   "main": "dist/main.js",
   "scripts": {},
   "keywords": [
@@ -11,7 +11,7 @@
     "fh5",
     "data out"
   ],
-  "author": "Tim Trayler",
+  "author": "Bennett",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.0.0"
