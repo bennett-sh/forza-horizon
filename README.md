@@ -7,7 +7,7 @@ A simple UDP server library, which can parse data from FH4/FH5.
 #### 0. Install & Import
  1. Install:
  ```sh
- npm i forza-horizon
+ $ npm i forza-horizon
  ```
  <br />
 
