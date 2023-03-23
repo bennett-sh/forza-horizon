@@ -1,0 +1,61 @@
+{
+  "items": {
+    "1": {
+      "type": "file",
+      "path": "README.md",
+      "position": [
+        2900,
+        2210
+      ],
+      "dimensions": [
+        500,
+        360
+      ],
+      "block": {
+        "type": "file",
+        "id": "markdown-block",
+        "title": "Markdown",
+        "description": "View and edit Markdown content, with the ability to embed other blocks",
+        "entry": "blocks/file-blocks/markdown-edit/index.tsx",
+        "matches": [
+          "*.md",
+          "*.markdown",
+          "*.mdx",
+          "*"
+        ],
+        "example_path": "https://github.com/githubnext/blocks-tutorial/blob/main/README.md",
+        "owner": "githubnext",
+        "repo": "blocks-examples",
+        "key": "githubnext__blocks-examples__markdown-block"
+      },
+      "id": 1
+    },
+    "2": {
+      "type": "file",
+      "path": "package.json",
+      "position": [
+        2250,
+        2320
+      ],
+      "dimensions": [
+        500,
+        360
+      ],
+      "block": {
+        "type": "file",
+        "id": "json-skulpt-file-block",
+        "title": "JSON Skulpt",
+        "description": "A file for visualizing JSON",
+        "entry": "blocks/json-file-skulpt/index.tsx",
+        "matches": [
+          "*.json"
+        ],
+        "example_path": "https://github.com/sgoguen/json-skulpt/blob/main/docs/example-file.json",
+        "owner": "sgoguen",
+        "repo": "json-skulpt",
+        "key": "sgoguen__json-skulpt__json-skulpt-file-block"
+      },
+      "id": 2
+    }
+  }
+}
