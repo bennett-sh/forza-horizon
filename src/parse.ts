@@ -13,44 +13,41 @@ const DATASIZES = {
 }
 
 export default function parseData(data: any[]): DataOut {
-    let r = {}
+    let result = {}
 
     for(let [name, type] of Object.entries(DATATYPES)) {
         let size = DATASIZES[type]
-        let cur = data.splice(0, size)
-        let dec
+        let current = data.splice(0, size)
+        let decoded
 
         switch(type) {
-
             case 's32':
-                dec = Buffer.from(cur).readInt32LE(0)
+                decoded = Buffer.from(current).readInt32LE(0)
                 break
             
             case 'u32':
-                dec = Buffer.from(cur).readUInt32LE(0)
+                decoded = Buffer.from(current).readUInt32LE(0)
                 break
         
             case 'f32':
-                dec = Buffer.from(cur).readFloatLE(0)
+                decoded = Buffer.from(current).readFloatLE(0)
                 break
         
             case 'u16':
-                dec = Buffer.from(cur).readUInt16LE(0)
+                decoded = Buffer.from(current).readUInt16LE(0)
                 break
         
             case 'u8':
-                dec = Buffer.from(cur).readUInt8(0)
+                decoded = Buffer.from(current).readUInt8(0)
                 break
         
             case 's8':
-                dec = Buffer.from(cur).readInt8(0)
+                decoded = Buffer.from(current).readInt8(0)
                 break
-
-            
         }
 
-        r[name] = dec
+        result[name] = decoded
     }
 
-    return r as DataOut
+    return result as DataOut
 }
